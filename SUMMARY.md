@@ -2,28 +2,28 @@
 
 * [智慧票务系统说明介绍](README.md)
 
-## Guides
+## 说明书 <a href="#guide" id="guide"></a>
 
-* [Creating your first project](guides/creating-your-first-project.md)
-* [Creating your first task](guides/creating-your-first-task.md)
-* [Advanced permissions](guides/advanced-permissions.md)
+* [后台操作说明书](guide/backend.md)
+* [小程序售票](guide/microprogram.md)
+* [自助售票机](guide/ssm.md)
+* [手持售票机](guide/pos-saler.md)
+* [OTA售票](guide/ota-saler.md)
+* [窗口售票](guide/window-saler.md)
+* [手持检票机](guide/pos-checker.md)
 
-## Fundamentals
+## 门票销售参数设置案例 <a href="#ticket-settings" id="ticket-settings"></a>
 
-* [Projects](fundamentals/projects.md)
-* [Members](fundamentals/members.md)
-* [Task Lists](fundamentals/task-lists.md)
-* [Tasks](fundamentals/tasks.md)
+* [普通票](ticket-settings/pu-tong-piao.md)
+* [Members](ticket-settings/members.md)
+* [Task Lists](ticket-settings/task-lists.md)
+* [Tasks](ticket-settings/tasks.md)
 
-## Use Cases
+## 精彩案例
 
-* [For Designers](use-cases/for-designers/README.md)
-  * [Figma Integration](use-cases/for-designers/figma-integration.md)
-* [For Engineers](use-cases/for-engineers/README.md)
-  * [GitHub Integration](use-cases/for-engineers/github-integration.md)
-* [For Support](use-cases/for-support/README.md)
-  * [Intercom Integration](use-cases/for-support/intercom-integration.md)
+* [Keyboard Shortcuts](jing-cai-an-li/keyboard-shortcuts.md)
 
-## Extras
+## 安装部署指南 <a href="#install" id="install"></a>
 
-* [Keyboard Shortcuts](extras/keyboard-shortcuts.md)
+* [windows安装](install/windows.md)
+* [linux](install/linux.md)

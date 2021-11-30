@@ -34,16 +34,16 @@ Here are a couple of examples of succinct overviews from products with really gr
 
 Follow our handy guides to get started on the basics as quickly as possible:
 
-{% content-ref url="guides/creating-your-first-project.md" %}
-[creating-your-first-project.md](guides/creating-your-first-project.md)
+{% content-ref url="guide/backend.md" %}
+[backend.md](guide/backend.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/creating-your-first-task.md" %}
-[creating-your-first-task.md](guides/creating-your-first-task.md)
+{% content-ref url="guide/microprogram.md" %}
+[microprogram.md](guide/microprogram.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/advanced-permissions.md" %}
-[advanced-permissions.md](guides/advanced-permissions.md)
+{% content-ref url="guide/ssm.md" %}
+[ssm.md](guide/ssm.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
@@ -54,20 +54,20 @@ Follow our handy guides to get started on the basics as quickly as possible:
 
 Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
-{% content-ref url="fundamentals/projects.md" %}
-[projects.md](fundamentals/projects.md)
+{% content-ref url="ticket-settings/pu-tong-piao.md" %}
+[pu-tong-piao.md](ticket-settings/pu-tong-piao.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/members.md" %}
-[members.md](fundamentals/members.md)
+{% content-ref url="ticket-settings/members.md" %}
+[members.md](ticket-settings/members.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/task-lists.md" %}
-[task-lists.md](fundamentals/task-lists.md)
+{% content-ref url="ticket-settings/task-lists.md" %}
+[task-lists.md](ticket-settings/task-lists.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/tasks.md" %}
-[tasks.md](fundamentals/tasks.md)
+{% content-ref url="ticket-settings/tasks.md" %}
+[tasks.md](ticket-settings/tasks.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
