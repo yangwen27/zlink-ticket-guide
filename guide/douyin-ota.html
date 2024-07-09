@@ -1,0 +1,764 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-CN" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>抖音来客OTA设置 · 智慧票务系统手册</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="zl771.cn">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-folding-content/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ancre-navigation/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="window-saler.html" />
+    
+    
+    <link rel="prev" href="ota-saler.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    智慧票务系统说明介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">操作说明书</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="backend.html">
+            
+                <a href="backend.html">
+            
+                    
+                    后台操作说明书
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="microprogram.html">
+            
+                <a href="microprogram.html">
+            
+                    
+                    小程序售票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="ssm.html">
+            
+                <a href="ssm.html">
+            
+                    
+                    自助售票机
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="pos-saler.html">
+            
+                <a href="pos-saler.html">
+            
+                    
+                    手持售票机
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="ota-saler.html">
+            
+                <a href="ota-saler.html">
+            
+                    
+                    OTA售票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.6" data-path="douyin-ota.html">
+            
+                <a href="douyin-ota.html">
+            
+                    
+                    抖音来客OTA设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="window-saler.html">
+            
+                <a href="window-saler.html">
+            
+                    
+                    窗口售票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="pos-checker.html">
+            
+                <a href="pos-checker.html">
+            
+                    
+                    手持检票机
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="shop-pos.html">
+            
+                <a href="shop-pos.html">
+            
+                    
+                    商家pos收款
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">门票销售参数设置案例</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../ticket-settings/cron-piao.html">
+            
+                <a href="../ticket-settings/cron-piao.html">
+            
+                    
+                    Cron设定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../ticket-settings/pu-tong-piao.html">
+            
+                <a href="../ticket-settings/pu-tong-piao.html">
+            
+                    
+                    普通票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../ticket-settings/jia-ting-piao.html">
+            
+                <a href="../ticket-settings/jia-ting-piao.html">
+            
+                    
+                    家庭亲子票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../ticket-settings/qing-lv-piao.html">
+            
+                <a href="../ticket-settings/qing-lv-piao.html">
+            
+                    
+                    情侣年票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../ticket-settings/ji-ci-piao.html">
+            
+                <a href="../ticket-settings/ji-ci-piao.html">
+            
+                    
+                    计次票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../ticket-settings/xian-ding-ri-qi-piao.md">
+            
+                <span>
+            
+                    
+                    限定日期使用门票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../ticket-settings/jie-jia-ri-piao.md">
+            
+                <span>
+            
+                    
+                    节假日专用票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="../ticket-settings/xian-gou-piao.md">
+            
+                <span>
+            
+                    
+                    限购门票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="../ticket-settings/tao-piao.md">
+            
+                <span>
+            
+                    
+                    组合套票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="../ticket-settings/freeticket.html">
+            
+                <a href="../ticket-settings/freeticket.html">
+            
+                    
+                    身份证免费票
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">安装部署指南</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../others/prepare.html">
+            
+                <a href="../others/prepare.html">
+            
+                    
+                    前期准备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../install/windows.html">
+            
+                <a href="../install/windows.html">
+            
+                    
+                    windows安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../install/linux.html">
+            
+                <a href="../install/linux.html">
+            
+                    
+                    linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">其他文档</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../others/printsetting.html">
+            
+                <a href="../others/printsetting.html">
+            
+                    
+                    窗口售票机打印机设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../others/smssettings.html">
+            
+                <a href="../others/smssettings.html">
+            
+                    
+                    购票通知短信设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../others/dataprivilege.html">
+            
+                <a href="../others/dataprivilege.html">
+            
+                    
+                    数据权限设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../others/ssmsetting.md">
+            
+                <span>
+            
+                    
+                    自助售票机设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">常见问题</li>
+        
+        
+    
+
+    
+        
+        <li class="header">精彩案例</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../jing-cai-an-li/keyboard-shortcuts.md">
+            
+                <span>
+            
+                    
+                    修水一票通
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../jing-cai-an-li/keyboard-shortcuts.md">
+            
+                <span>
+            
+                    
+                    泰山九女峰
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="../jing-cai-an-li/keyboard-shortcuts.md">
+            
+                <span>
+            
+                    
+                    泰山九女峰
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="../others/bookings.html">
+            
+                <a href="../others/bookings.html">
+            
+                    
+                    最新版预约系统操作手册
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">二开</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../developer/check-ticket.html">
+            
+                <a href="../developer/check-ticket.html">
+            
+                    
+                    检票程序的扩展
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >抖音来客OTA设置</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x5BF9;&#x63A5;"><b></b>&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x5BF9;&#x63A5;</a></li><ul><li><span class="title-icon "></span><a href="#1-&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x5BF9;&#x63A5;&#x6D41;&#x7A0B;"><b></b>1. &#x6296;&#x97F3;&#x6765;&#x5BA2;&#x5BF9;&#x63A5;&#x6D41;&#x7A0B;</a></li><li><span class="title-icon "></span><a href="#&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x8BBE;&#x7F6E;"><b></b>&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x8BBE;&#x7F6E;</a></li></ul></ul></div><a href="#&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x5BF9;&#x63A5;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x5BF9;&#x63A5;"><a name="&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x5BF9;&#x63A5;" class="anchor-navigation-ex-anchor" href="#&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x5BF9;&#x63A5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x5BF9;&#x63A5;</h1>
+<h2 id="1-&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x5BF9;&#x63A5;&#x6D41;&#x7A0B;"><a name="1-&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x5BF9;&#x63A5;&#x6D41;&#x7A0B;" class="anchor-navigation-ex-anchor" href="#1-&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x5BF9;&#x63A5;&#x6D41;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x6296;&#x97F3;&#x6765;&#x5BA2;&#x5BF9;&#x63A5;&#x6D41;&#x7A0B;</h2>
+<ol>
+<li>&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x6CE8;&#x518C;&#xFF0C;&#x6296;&#x97F3;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x6CE8;&#x518C;</li>
+<li><p>&#x767B;&#x5F55;&#x6296;&#x97F3;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x5F00;&#x901A;&#x751F;&#x6D3B;&#x670D;&#x52A1;&#x5E94;&#x7528;
+<img src="imgs/1720517698638.png" alt="1720517698638.png"></p>
+</li>
+<li><p>&#x70B9;&#x51FB;&#x5E94;&#x7528;&#x56FE;&#x6807;&#xFF0C;&#x8FDB;&#x5165;&#x5E94;&#x7528;&#xFF0C;&#x5F00;&#x901A;&#x89E3;&#x51B3;&#x65B9;&#x6848;
+<img src="imgs/1720517838322.png" alt="1720517838322.png"></p>
+</li>
+<li>&#x52FE;&#x9009;&#x5F00;&#x901A;&#x5982;&#x4E0B;&#x51E0;&#x4E2A;&#xFF08;&#x4E3B;&#x8981;&#x662F;&#x4E09;&#x65B9;&#x7801;&#xFF09;&#xFF0C;&#x63D0;&#x4EA4;&#x540E;&#x7B49;&#x5F85;&#x5BA1;&#x6838;
+<img src="imgs/1720517885574.png" alt="1720517885574.png"></li>
+<li>&#x8BBE;&#x7F6E;&#x4E09;&#x65B9;&#x7801;&#x56DE;&#x8C03;&#x5730;&#x5740;
+<img src="imgs/1720518000093.png" alt="1720518000093.png">
+&#x6296;&#x97F3;&#x8BF7;&#x6C42;&#x4E09;&#x65B9;&#x7CFB;&#x7EDF;&#x9884;&#x4E0B;&#x5355; <a href="https://&#x7CFB;&#x7EDF;&#x57DF;&#x540D;/ticket/api/dylife/Create" target="_blank">https://&#x7CFB;&#x7EDF;&#x57DF;&#x540D;/ticket/api/dylife/Create</a>
+&#x6296;&#x97F3;&#x8BF7;&#x6C42;&#x4E09;&#x65B9;&#x7CFB;&#x7EDF;&#x53D1;&#x7801;&#xFF08;&#x540C;&#x6B65;&#xFF09;<a href="https://&#x7CFB;&#x7EDF;&#x57DF;&#x540D;/ticket/api/dylife/Pay" target="_blank">https://&#x7CFB;&#x7EDF;&#x57DF;&#x540D;/ticket/api/dylife/Pay</a>
+&#x3010;&#x666F;&#x533A;&#x8BA2;&#x5355;&#x72B6;&#x6001;&#x67E5;&#x8BE2;&#x3011;&#x83B7;&#x53D6;&#x8BA2;&#x5355;&#x6838;&#x9500;&#x72B6;&#x6001;<a href="https://&#x7CFB;&#x7EDF;&#x57DF;&#x540D;/ticket/api/dylife/query" target="_blank">https://&#x7CFB;&#x7EDF;&#x57DF;&#x540D;/ticket/api/dylife/query</a>
+&#x3010;&#x6296;&#x97F3;&#x8BF7;&#x6C42;&#x4E09;&#x65B9;&#x7CFB;&#x7EDF;&#x9000;&#x6B3E;&#x5BA1;&#x6838;&#x3011;&#xFF0C;&#x5141;&#x8BB8;&#x540C;&#x6B65;&#x8FD4;&#x56DE;&#x5BA1;&#x6838;&#x7ED3;&#x679C;<a href="https://&#x7CFB;&#x7EDF;&#x57DF;&#x540D;/ticket/api/dylife/Refund" target="_blank">https://&#x7CFB;&#x7EDF;&#x57DF;&#x540D;/ticket/api/dylife/Refund</a>
+&#x6296;&#x97F3;&#x5411;&#x4E09;&#x65B9;&#x7CFB;&#x7EDF;&#x540C;&#x6B65;&#x9000;&#x6B3E;&#x4FE1;&#x606F;<a href="https://&#x7CFB;&#x7EDF;&#x57DF;&#x540D;/ticket/api/dylife/RefundResult" target="_blank">https://&#x7CFB;&#x7EDF;&#x57DF;&#x540D;/ticket/api/dylife/RefundResult</a></li>
+<li>&#x914D;&#x7F6E;&#x7968;&#x52A1;&#x7CFB;&#x7EDF;&#x540E;&#x53F0;&#xFF0C;&#x6309;&#x5B9E;&#x9645;&#x60C5;&#x51B5;&#x586B;&#x5199;&#x8868;&#x5355;&#xFF0C;&#x3010;&#x63A5;&#x53E3;&#x9A8C;&#x6536;&#x7528;&#x4F8B;&#x3011;&#x90E8;&#x5206;&#x662F;&#x4E3A;&#x4E86;&#x5FEB;&#x901F;&#x901A;&#x8FC7;&#x4E00;&#x4E9B;&#x63A5;&#x53E3;&#x7684;&#x4E0A;&#x7EBF;&#x6D4B;&#x8BD5;&#x800C;&#x914D;&#x7F6E;&#x7684;&#xFF0C;&#x4E00;&#x4E2A;&#x7528;&#x4F8B;&#x4E00;&#x4E2A;&#x95E8;&#x7968;&#x4E0D;&#x53EF;&#x91CD;&#x590D;
+<img src="imgs/1720520036206.png" alt="1720520036206.png"></li>
+</ol>
+<h2 id="&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x8BBE;&#x7F6E;"><a name="&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x8BBE;&#x7F6E;" class="anchor-navigation-ex-anchor" href="#&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x8BBE;&#x7F6E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x8BBE;&#x7F6E;</h2>
+<ol>
+<li>&#x7ED1;&#x5B9A;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x8D26;&#x53F7;&#xFF0C;&#x7ED1;&#x5B9A;&#x597D;&#x4E4B;&#x540E;&#x5E94;&#x7528;&#x5217;&#x8868;&#x4E2D;&#x5C31;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5E94;&#x7528;&#x4E86;
+<img src="imgs/1720530236837.png" alt="1720530236837.png"></li>
+<li>&#x5728;&#x5546;&#x54C1;&#x53D1;&#x5E03;&#x4E2D;&#x53D1;&#x5E03;&#x5546;&#x54C1;
+<img src="imgs/1720530291038.png" alt="1720530291038.png"></li>
+<li>&#x5546;&#x54C1;&#x7C7B;&#x578B;&#x9009;&#x62E9;&#x56E2;&#x8D2D;&#x5238;&#xFF0C;&#x70B9;&#x51FB;&#x4E0B;&#x4E00;&#x6B65;
+<img src="imgs/1720530338710.png" alt="1720530338710.png"></li>
+<li>&#x5546;&#x54C1;&#x7684;&#x9500;&#x552E;&#x5C5E;&#x6027;&#x9700;&#x8981;&#x4E0E;&#x7968;&#x52A1;&#x7CFB;&#x7EDF;&#x4E2D;&#x586B;&#x5199;&#x7684;&#x4E00;&#x81F4;&#xFF0C;&#x51ED;&#x8BC1;&#x53D1;&#x653E;&#x9009;&#x62E9;&#x5546;&#x5BB6;&#x53D1;&#x653E;&#x51ED;&#x8BC1;&#xFF0C;&#x5238;&#x7801;&#x670D;&#x52A1;&#x5546;&#x9009;&#x62E9;&#x5F00;&#x901A;&#x7684;&#x5E94;&#x7528;&#xFF0C;&#x5546;&#x5BB6;&#x5E73;&#x53F0;&#x5546;&#x54C1;ID&#x586B;&#x5199;&#x7968;&#x52A1;&#x7CFB;&#x7EDF;&#x4E2D;&#x7684;&#x7F16;&#x7801;&#xFF08;&#x6CE8;&#x610F;&#x7968;&#x52A1;&#x7CFB;&#x7EDF;&#x4E2D;&#x7684;&#x95E8;&#x7968;&#x8981;&#x5728;&#x9500;&#x552E;&#x8BBE;&#x7F6E;&#x4E2D;&#x52FE;&#x4E0A;&#x6296;&#x97F3;&#x6765;&#x5BA2;&#x552E;&#x7968;&#x7684;&#x8D26;&#x53F7;&#xFF09;
+<img src="imgs/1720530597987.png" alt="1720530597987.png"></li>
+<li>&#x586B;&#x597D;&#x4FE1;&#x606F;&#x540E;&#x53D1;&#x5E03;&#xFF0C;&#x5BA1;&#x6838;&#x901A;&#x8FC7;&#x540E;&#x5373;&#x53EF;&#x7528;&#x6296;&#x97F3;&#x626B;&#x7801;&#x8D2D;&#x4E70;&#xFF08;&#x8BF7;&#x786E;&#x4FDD;&#x6296;&#x97F3;&#x4E0A;&#xFF09;
+<img src="imgs/1720531997584.png" alt="1720531997584.png"></li>
+<li>&#x5728;&#x6296;&#x97F3;&#x4E0A;&#x8D2D;&#x4E70;&#x95E8;&#x7968;
+<img src="imgs/1720532074191.png" alt="1720532074191.png">
+<img src="imgs/1720532087626.png" alt="1720532087626.png"></li>
+<li>&#x5728;&#x7968;&#x52A1;&#x7CFB;&#x7EDF;&#x4E0A;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x8BE5;&#x95E8;&#x7968;&#x4E86;
+<img src="imgs/1720531959216.png" alt="1720531959216.png"></li>
+<li>&#x5728;&#x666F;&#x533A;&#x95F8;&#x673A;&#xFF08;&#x9700;&#x8981;&#x5728;&#x7CFB;&#x7EDF;&#x7684;&#x68C0;&#x7968;&#x8BBE;&#x7F6E;&#x4E2D;&#x8BBE;&#x7F6E;&#x95F8;&#x673A;&#x5141;&#x8BB8;&#x6838;&#x9500;&#x7684;&#x95E8;&#x7968;&#xFF09;&#x4E0A;&#x76F4;&#x63A5;&#x626B;&#x6296;&#x97F3;&#x4E0A;&#x7684;&#x4E8C;&#x7EF4;&#x7801;&#x5C31;&#x53EF;&#x4EE5;&#x6838;&#x9500;&#xFF0C;&#x6838;&#x9500;&#x540E;&#x7CFB;&#x7EDF;&#x4F1A;&#x81EA;&#x52A8;&#x540C;&#x6B65;&#x6838;&#x9500;&#x7ED3;&#x679C;&#x5230;&#x6296;&#x97F3;</li>
+</ol>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; zl771.cn 2021 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2024-07-09 21:38:21
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="ota-saler.html" class="navigation navigation-prev " aria-label="Previous page: OTA售票">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="window-saler.html" class="navigation navigation-next " aria-label="Next page: 窗口售票">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"抖音来客OTA设置","level":"2.6","depth":1,"next":{"title":"窗口售票","level":"2.7","depth":1,"path":"guide/window-saler.md","ref":"guide/window-saler.md","articles":[]},"previous":{"title":"OTA售票","level":"2.5","depth":1,"path":"guide/ota-saler.md","ref":"guide/ota-saler.md","articles":[]},"dir":"ltr"},"config":{"plugins":["hints","page-ref","code","livereload","folding-content","emphasize","sectionx","-lunr","-search","-sharing","sharing-plus","tbfed-pagefooter","search-pro","ancre-navigation"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy zl771.cn 2021","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"emphasize":{},"livereload":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"code":{"copyButtons":true},"folding-content":{},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"page-ref":{},"ancre-navigation":{"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":true},"sharing":{"qq":true,"all":["douban","facebook","google","hatenaBookmark","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","vk","weibo","pocket","stumbleupon","whatsapp"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":true,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":true,"linkedin":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"zl771.cn","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"智慧票务系统手册","language":"zh-CN","links":"https://www.zl771.cn","gitbook":"3.2.3"},"file":{"path":"guide/douyin-ota.md","mtime":"2024-07-09T13:38:21.122Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-07-09T13:52:35.301Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

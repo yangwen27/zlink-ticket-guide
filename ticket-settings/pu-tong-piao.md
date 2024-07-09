@@ -1,5 +1,3 @@
 # 普通票
 
-{% hint style="info" %}
-**Good to know:** Splitting your product into fundamental concepts, objects, or areas can be a great way to let readers deep dive into the concepts that matter most to them.
-{% endhint %}
+[广西众链网络科技有限公司](https://www.zl771.cn)
