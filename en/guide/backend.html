@@ -1,0 +1,959 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Backend Operation Manual · 智慧票务系统手册</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.0.3">
+        <meta name="author" content="zl771.cn">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-folding-content/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-ancre-navigation/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-language-picker/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="microprogram.html" />
+    
+    
+    <link rel="prev" href="../case/keyboard-shortcuts.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Smart Ticketing System Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Case</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../case/keyboard-shortcuts.html">
+            
+                <a href="../case/keyboard-shortcuts.html">
+            
+                    
+                    Keyboard Shortcuts
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Operation Manual</li>
+        
+        
+    
+        <li class="chapter active" data-level="3.1" data-path="backend.html">
+            
+                <a href="backend.html">
+            
+                    
+                    Backend Operation Manual
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="microprogram.html">
+            
+                <a href="microprogram.html">
+            
+                    
+                    Mini Program Ticket Sales
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="ssm.html">
+            
+                <a href="ssm.html">
+            
+                    
+                    Self-service Ticket Machine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="pos-saler.html">
+            
+                <a href="pos-saler.html">
+            
+                    
+                    Handheld Ticket Machine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="ota-saler.html">
+            
+                <a href="ota-saler.html">
+            
+                    
+                    OTA Ticket Sales
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="douyin-ota.html">
+            
+                <a href="douyin-ota.html">
+            
+                    
+                    Douyin Laike OTA Settings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="window-saler.html">
+            
+                <a href="window-saler.html">
+            
+                    
+                    Window Ticket Sales
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="pos-checker.html">
+            
+                <a href="pos-checker.html">
+            
+                    
+                    Handheld Ticket Inspector
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="shop-pos.html">
+            
+                <a href="shop-pos.html">
+            
+                    
+                    Merchant POS Collection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="shop-saler.html">
+            
+                <a href="shop-saler.html">
+            
+                    
+                    Merchant Retail Cashier
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="Booking.html">
+            
+                <a href="Booking.html">
+            
+                    
+                    Reservation System Operation Manual
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="eastriver.html">
+            
+                <a href="eastriver.html">
+            
+                    
+                    Consumer Machine Docking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="facecheck.html">
+            
+                <a href="facecheck.html">
+            
+                    
+                    Face Recognition
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="member-ic.html">
+            
+                <a href="member-ic.html">
+            
+                    
+                    Member IC Card
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="../others/bookings.html">
+            
+                <a href="../others/bookings.html">
+            
+                    
+                    Latest Reservation System Operation Manual
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Ticket Sales Parameter Setting Cases</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../ticket-settings/cron-ticket.html">
+            
+                <a href="../ticket-settings/cron-ticket.html">
+            
+                    
+                    Cron Settings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../ticket-settings/regular-ticket.html">
+            
+                <a href="../ticket-settings/regular-ticket.html">
+            
+                    
+                    Regular Ticket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../ticket-settings/family-ticket.html">
+            
+                <a href="../ticket-settings/family-ticket.html">
+            
+                    
+                    Family Ticket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../ticket-settings/couple-ticket.html">
+            
+                <a href="../ticket-settings/couple-ticket.html">
+            
+                    
+                    Couple Annual Ticket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../ticket-settings/multi-ride-ticket.html">
+            
+                <a href="../ticket-settings/multi-ride-ticket.html">
+            
+                    
+                    Multi-ride Ticket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="../ticket-settings/freeticket.html">
+            
+                <a href="../ticket-settings/freeticket.html">
+            
+                    
+                    ID Card Free Ticket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="../ticket-settings/hideticket.html">
+            
+                <a href="../ticket-settings/hideticket.html">
+            
+                    
+                    Hidden Ticket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="../ticket-settings/members.html">
+            
+                <a href="../ticket-settings/members.html">
+            
+                    
+                    Member Ticket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="../ticket-settings/tasks.html">
+            
+                <a href="../ticket-settings/tasks.html">
+            
+                    
+                    Scheduled Tasks
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Installation and Deployment Guide</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../others/prepare.html">
+            
+                <a href="../others/prepare.html">
+            
+                    
+                    Preparation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../install/windows.html">
+            
+                <a href="../install/windows.html">
+            
+                    
+                    Windows Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../install/linux.html">
+            
+                <a href="../install/linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Other Documents</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../others/printsetting.html">
+            
+                <a href="../others/printsetting.html">
+            
+                    
+                    Window Ticket Machine Printer Settings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../others/smssettings.html">
+            
+                <a href="../others/smssettings.html">
+            
+                    
+                    Ticket Purchase Notification SMS Settings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="../others/dataprivilege.html">
+            
+                <a href="../others/dataprivilege.html">
+            
+                    
+                    Data Privilege Settings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="../others/tianshitongcheng.html">
+            
+                <a href="../others/tianshitongcheng.html">
+            
+                    
+                    Tianshitongcheng Docking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="../others/jialian.html">
+            
+                <a href="../others/jialian.html">
+            
+                    
+                    Jialian Interface Upgrade
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="../others/ticket-machine-scan-prompt.html">
+            
+                <a href="../others/ticket-machine-scan-prompt.html">
+            
+                    
+                    The ticket machine program keeps prompting to scan the code
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.7" data-path="../others/ctrip.html">
+            
+                <a href="../others/ctrip.html">
+            
+                    
+                    Ctrip OTA Docking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.8" data-path="../others/douyinlaige.html">
+            
+                <a href="../others/douyinlaige.html">
+            
+                    
+                    Douyin Laike Docking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.9" data-path="../others/smart-scenic-area-is-not-smart.html">
+            
+                <a href="../others/smart-scenic-area-is-not-smart.html">
+            
+                    
+                    Smart scenic areas are not smart
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.10" data-path="../others/why-smart-scenic-areas-are-not-smart-an-in-depth-interpretation-from-a-cultural-and-tourism-analyst.html">
+            
+                <a href="../others/why-smart-scenic-areas-are-not-smart-an-in-depth-interpretation-from-a-cultural-and-tourism-analyst.html">
+            
+                    
+                    Why smart scenic areas are not smart
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Developer</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../developer/check-ticket.html">
+            
+                <a href="../developer/check-ticket.html">
+            
+                    
+                    Check Ticket
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">FAQ</li>
+        
+        
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Backend Operation Manual</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#backend-operation-manual"><b></b>Backend operation manual</a></li><ul><li><span class="title-icon "></span><a href="#log-in-to-the-zhonglian-ticketing-system"><b></b>Log in to the Zhonglian Ticketing System</a></li><ul><li><span class="title-icon "></span><a href="#backend-homepage"><b></b>Backend homepage</a></li><li><span class="title-icon "></span><a href="#system-management"><b></b>System Management</a></li><li><span class="title-icon "></span><a href="#basic-settings"><b></b>Basic settings</a></li><li><span class="title-icon "></span><a href="#ticket-management"><b></b>Ticket management</a></li></ul><li><span class="title-icon "></span><a href="#commission-and-withdrawal"><b></b>Commission and withdrawal</a></li><li><span class="title-icon "></span><a href="#report-details"><b></b>Report details</a></li><ul><li><span class="title-icon "></span><a href="#points-and-gifts"><b></b>Points and gifts</a></li></ul><li><span class="title-icon "></span><a href="#information-management"><b></b>Information Management</a></li></ul></ul></div><a href="#backend-operation-manual" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="backend-operation-manual"><a name="backend-operation-manual" class="anchor-navigation-ex-anchor" href="#backend-operation-manual"><i class="fa fa-link" aria-hidden="true"></i></a>Backend operation manual</h1>
+<p></p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p><strong>tips:</strong> The management of various ticket sales ports, ticket settings, payment, reports, parameters and other functions of the <a href="https://www.zl771.cn" target="_blank">Zhonglian Ticketing System</a> are all managed by a unified background management. Different roles will see different functions when logging into the background management system.</p>
+</div></div><p></p>
+<blockquote>
+<p>To view the latest demo version, please visit <a href="https://ticket.anjian99.com" target="_blank">https://ticket.anjian99.com</a></p>
+</blockquote>
+<h2 id="log-in-to-the-zhonglian-ticketing-system"><a name="log-in-to-the-zhonglian-ticketing-system" class="anchor-navigation-ex-anchor" href="#log-in-to-the-zhonglian-ticketing-system"><i class="fa fa-link" aria-hidden="true"></i></a>Log in to the Zhonglian Ticketing System</h2>
+<p>Open the backend URL, enter the username and password to log in. The default username is admin and the password is 000000</p>
+<p><img src="imgs/image001.png" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-Backend login interface"></img></p>
+<h3 id="backend-homepage"><a name="backend-homepage" class="anchor-navigation-ex-anchor" href="#backend-homepage"><i class="fa fa-link" aria-hidden="true"></i></a>Backend homepage</h3>
+<p>The upper part of the homepage provides quick access to various common functions, as well as key data indicators for the day. More detailed reports can be viewed in the report details.</p>
+<p><img src="image-4.png" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-Backend login interface"></img></p>
+<h3 id="system-management"><a name="system-management" class="anchor-navigation-ex-anchor" href="#system-management"><i class="fa fa-link" aria-hidden="true"></i></a>System Management</h3>
+<p>System management is mainly for the management of background users/roles, permission settings, navigation menu management, and system log records.</p>
+<h4 id="user-management"><a name="user-management" class="anchor-navigation-ex-anchor" href="#user-management"><i class="fa fa-link" aria-hidden="true"></i></a>User Management</h4>
+<p>The users here refer to the users who can log in to the background and the salesperson accounts of each ticket sales terminal. In the user management interface, we can add/edit users, modify user login passwords, enable/disable user accounts, and delete users (use the delete function with caution, if you don't want users to log in to the system, just disable them).</p>
+<p><img src="imgs/v2-bf32b5cf5735825db6d089c601a4d893_r.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-User Management Page"></img></p>
+<h4 id="role-management"><a name="role-management" class="anchor-navigation-ex-anchor" href="#role-management"><i class="fa fa-link" aria-hidden="true"></i></a>Role management</h4>
+<p>In the ticketing system, the permission control of each user account is realized through role management. A user can have multiple role identities, and a role can also include multiple users. By setting the page permissions of the role, the system functions that the user has can be controlled.</p>
+<p><img src="imgs/v2-968bfdb0ef9886f8dd3a6ac1b4b601b1_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-Role Management"></img></p>
+<h4 id="menu-management"><a name="menu-management" class="anchor-navigation-ex-anchor" href="#menu-management"><i class="fa fa-link" aria-hidden="true"></i></a>Menu management</h4>
+<p>Menu management is the setting and arrangement of the background navigation menu. By default, we have set all the menus. You can also adjust the menu according to your actual situation. After adjusting the menu, you need to click "Refresh Menu" and log in again to take effect.</p>
+<p><img src="imgs/v2-0cd0188753a1141b913bd8b259c421ea_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h4 id="log"><a name="log" class="anchor-navigation-ex-anchor" href="#log"><i class="fa fa-link" aria-hidden="true"></i></a>Log</h4>
+<p>The log system will record background operations and API interface operation records. When the system has an exception, it will record detailed error information for operation and maintenance personnel to troubleshoot and refer to. The log recording level can be set through the configuration file. Under normal circumstances, the system will not actively delete any log records. If you feel that too many logs affect the system response, you can delete them manually.</p>
+<p><img src="imgs/v2-450727222f3a4981d7e9b88a0c5a1b33_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-Log Management"></img></p>
+<h3 id="basic-settings"><a name="basic-settings" class="anchor-navigation-ex-anchor" href="#basic-settings"><i class="fa fa-link" aria-hidden="true"></i></a>Basic settings</h3>
+<p>The basic settings are mainly some parameter settings of the ticketing system, such as payment institution parameter settings, self-service machine parameter settings, applet parameter settings, official account parameter settings, OTA parameter settings and other parameter settings. Ticket classification and distribution channels are also placed in the basic settings. You can rearrange the menu according to your own preferences in the menu management.</p>
+<h4 id="parameter-settings"><a name="parameter-settings" class="anchor-navigation-ex-anchor" href="#parameter-settings"><i class="fa fa-link" aria-hidden="true"></i></a>Parameter settings</h4>
+<p><img src="imgs/v2-f9bb9ec189718bc68a14edaee1ba5da4_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h4 id="ticket-classification"><a name="ticket-classification" class="anchor-navigation-ex-anchor" href="#ticket-classification"><i class="fa fa-link" aria-hidden="true"></i></a>Ticket classification</h4>
+<p>Although the system supports multi-level classification, for the convenience of operation on the ticket vending machine, it is recommended to only do first-level classification.</p>
+<p><img src="imgs/v2-89f0f4a08f74b3280c71305da9698c2f_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h4 id="distribution-channels"><a name="distribution-channels" class="anchor-navigation-ex-anchor" href="#distribution-channels"><i class="fa fa-link" aria-hidden="true"></i></a>Distribution channels</h4>
+<p>The distribution channels here do not involve any settlement or commission, but are just for the convenience of statistics on the promotion of ground promotion personnel. If you want to reward them based on their merits, you can view the statistical data in the distribution statistics report.</p>
+<p><img src="imgs/v2-70b48ff40076917c14794b38b8355996_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h3 id="ticket-management"><a name="ticket-management" class="anchor-navigation-ex-anchor" href="#ticket-management"><i class="fa fa-link" aria-hidden="true"></i></a>Ticket management</h3>
+<p>Ticket management is the core part of the entire ticketing system. The setting of ticket types and the setting of ticket sales/checking permissions are all managed here.</p>
+<h4 id="ticket-management_1"><a name="ticket-management_1" class="anchor-navigation-ex-anchor" href="#ticket-management_1"><i class="fa fa-link" aria-hidden="true"></i></a>Ticket management</h4>
+<p>Various ticket types (annual pass, package ticket, multi-ride ticket, etc.), ticket sales restrictions, promotion commissions, point rewards, and usage dates can be combined to generate different types of tickets. Due to the limited space, we will introduce in detail in another article how to generate various common ticket types through parameter combination.</p>
+<p><img src="imgs/v2-88a25b221bd220e408bd62f83123f3d2_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<p><img src="imgs/v2-72e39b9045da92a0537fae903a856119_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<p><img src="imgs/v2-82a8453d510819f24eab22f94fdabcd5_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<p><img src="imgs/v2-8fd431d2a184f32f9601b4fdc967343a_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<p><img src="imgs/v2-508a2a064158b4eb34dac19459b15096_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h4 id="ticket-sales-settings"><a name="ticket-sales-settings" class="anchor-navigation-ex-anchor" href="#ticket-sales-settings"><i class="fa fa-link" aria-hidden="true"></i></a>Ticket sales settings</h4>
+<p>The ticket sales authority of each salesperson/ticket sales channel can be set. On the ticket sales interface, the salesperson can only see the tickets they are authorized to sell. Through the setting of ticket sales authority, we can easily realize that different channels sell different tickets. Through the setting of data authority, the salesperson can only see their own sales situation after logging into the background system. For specific data authority settings, please refer to <a href="others/dataprivilege.md">Data Authority Settings</a></p>
+<p><img src="imgs/v2-3e89edbefcd38590c119350d4f07208b_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<p><img src="imgs/v2-4cb014ed2eda8e0719b94415e39dfccc_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h4 id="ticket-checking-equipment"><a name="ticket-checking-equipment" class="anchor-navigation-ex-anchor" href="#ticket-checking-equipment"><i class="fa fa-link" aria-hidden="true"></i></a>Ticket checking equipment</h4>
+<p>In our system, turnstiles, handheld ticket checkers, and ticket checking apps are collectively referred to as ticket checking equipment. The ticket checking equipment has two traffic directions: in and out. In some occasions, you need to swipe your card and scan the code for both in and out. Then we can achieve this by setting up two ticket checking equipment (one in and one out). The ticket checking equipment also has permission settings. Only when the ticket is checked can the equipment check the corresponding ticket. When the ticket checking equipment is no longer in use, you can delete the equipment. Usually, to ensure the integrity of the system data, we do not recommend that you delete the equipment, but recommend that you disable the equipment.</p>
+<p><img src="imgs/v2-73e3b62fe697857b5e16c9c149fbe35a_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<p><img src="imgs/v2-5f64a29919f4d0b1097e84f7b40e97d1_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h4 id="refund-management"><a name="refund-management" class="anchor-navigation-ex-anchor" href="#refund-management"><i class="fa fa-link" aria-hidden="true"></i></a>Refund management</h4>
+<p>You can initiate a refund here, and the amount will be returned to the original path. If the guest has already used the ticket, but cannot continue to experience the service corresponding to the ticket due to some factors, you can force a refund to the guest. It is worth noting that each ticket can only be refunded once, so the refund amount must be confirmed with the customer before initiating the refund.</p>
+<p><img src="imgs/v2-58104441f380782920b431ea5cf2197e_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h2 id="commission-and-withdrawal"><a name="commission-and-withdrawal" class="anchor-navigation-ex-anchor" href="#commission-and-withdrawal"><i class="fa fa-link" aria-hidden="true"></i></a>Commission and withdrawal</h2>
+<p>This function corresponds to the distribution and promotion on the applet. Member users can get corresponding commissions by sharing the applet with friends and relatives, and friends can buy tickets on the applet. After getting the commission, members can apply for withdrawal on the applet. After the background staff approves it, they will transfer the money to the member. It is worth mentioning that the commission will not be credited immediately after a friend buys a ticket, but will be credited after the ticket is verified and used.</p>
+<p><img src="imgs/v2-15f817b7c0ac538be185af70fdd4a0e3_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<p><img src="imgs/v2-cccf5df0589b861cf55b262ef735320e_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h2 id="report-details"><a name="report-details" class="anchor-navigation-ex-anchor" href="#report-details"><i class="fa fa-link" aria-hidden="true"></i></a>Report details</h2>
+<p>Here are the various reports, order details and payment documents of the system.</p>
+<h4 id="payment-documents"><a name="payment-documents" class="anchor-navigation-ex-anchor" href="#payment-documents"><i class="fa fa-link" aria-hidden="true"></i></a>Payment documents</h4>
+<p>Payment documents refer to the transaction records of third-party payment institutions, including ticket orders and ticket refund orders. The data here can be used as a reconciliation statement with third-party payment institutions. The system has a transaction exception detection mechanism, and orders with payment timeout or payment exceptions will be automatically reversed by the system.</p>
+<p><img src="imgs/v2-0ddc8f58b858758d340e0015e5c57e79_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h4 id="ticket-checking-records"><a name="ticket-checking-records" class="anchor-navigation-ex-anchor" href="#ticket-checking-records"><i class="fa fa-link" aria-hidden="true"></i></a>Ticket checking records</h4>
+<p>Record the usage of tickets</p>
+<p><img src="imgs/v2-03c12224af8ed0231ae8051e71f15353_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h4 id="ticket-orders"><a name="ticket-orders" class="anchor-navigation-ex-anchor" href="#ticket-orders"><i class="fa fa-link" aria-hidden="true"></i></a>Ticket orders</h4>
+<p>This is the ticket sales details. It is specially explained that the "export password" function is used in conjunction with the "password activation" on the applet. The platform can issue passwords to members through the official account, and members can then activate the tickets through the password activation function.</p>
+<p><img src="imgs/v2-f91adf50d547061f51a958771673fa09_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h4 id="distribution-statistics"><a name="distribution-statistics" class="anchor-navigation-ex-anchor" href="#distribution-statistics"><i class="fa fa-link" aria-hidden="true"></i></a>Distribution statistics</h4>
+<p>The order statistics of offline ground promotion and distribution personnel, the reports here can be used as the basis for commission distribution</p>
+<p><img src="imgs/v2-75cb264991d033815e71fa464a830960_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h4 id="refund-records"><a name="refund-records" class="anchor-navigation-ex-anchor" href="#refund-records"><i class="fa fa-link" aria-hidden="true"></i></a>Refund records</h4>
+<p>The amount of refunds in the system is returned to the original path. This is only for recording. Whether the third-party payment is successfully refunded needs to be checked in the payment documents.</p>
+<p><img src="imgs/v2-c1284b544c72a3fc0d5a4eb91b7cc5d0_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h4 id="ticket-statistics"><a name="ticket-statistics" class="anchor-navigation-ex-anchor" href="#ticket-statistics"><i class="fa fa-link" aria-hidden="true"></i></a>Ticket statistics</h4>
+<p>Statistics of the sales of each ticket by day in the form of charts, which can be filtered by time range and exported easily</p>
+<p><img src="imgs/v2-3111a0239d2d4c17452e130241e28d63_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h4 id="channel-statistics"><a name="channel-statistics" class="anchor-navigation-ex-anchor" href="#channel-statistics"><i class="fa fa-link" aria-hidden="true"></i></a>Channel statistics</h4>
+<p>Different from distribution statistics, here the data is counted by salesperson (channel)</p>
+<p><img src="imgs/v2-3ec2769726a6684d3bc95417a999aab3_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h3 id="points-and-gifts"><a name="points-and-gifts" class="anchor-navigation-ex-anchor" href="#points-and-gifts"><i class="fa fa-link" aria-hidden="true"></i></a>Points and gifts</h3>
+<p>Members can get points by purchasing tickets or signing in on the applet. After getting points, they can redeem gifts in the points mall. After redeeming gifts, they need to be verified in the background.</p>
+<h4 id="points-record"><a name="points-record" class="anchor-navigation-ex-anchor" href="#points-record"><i class="fa fa-link" aria-hidden="true"></i></a>Points record</h4>
+<p>Record the changes of each member's points</p>
+<p><img src="imgs/v2-4c40a4ab9f7c0075fca398ec4c779987_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h4 id="gift-management"><a name="gift-management" class="anchor-navigation-ex-anchor" href="#gift-management"><i class="fa fa-link" aria-hidden="true"></i></a>Gift management</h4>
+<p>Add, delete, modify and check gifts. The added gifts will be displayed on the applet (only when "available" is checked). When members have enough points, they can redeem gifts.</p>
+<p><img src="imgs/v2-a3007b5d76a14fd0ecd026eedfca10bf_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h4 id="gift-exchange"><a name="gift-exchange" class="anchor-navigation-ex-anchor" href="#gift-exchange"><i class="fa fa-link" aria-hidden="true"></i></a>Gift exchange</h4>
+<p>Users initiate exchanges on the applet, and the background reviews and verifies them before issuing gifts.</p>
+<p><img src="imgs/v2-5f7067d413018916a6db49356646fdf5_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<h2 id="information-management"><a name="information-management" class="anchor-navigation-ex-anchor" href="#information-management"><i class="fa fa-link" aria-hidden="true"></i></a>Information Management</h2>
+<p>You can publish some travel guides, event introductions or promotional articles. These articles will be displayed on the applet and self-service machines.</p>
+<p><img src="imgs/v2-15c81bd8aca530ceaeb502a44df05fb6_720w.jpg" alt="Guangxi Zhonglian Network Technology Co., Ltd.-www.zl771.cn Zhonglian Network-"></img></p>
+<footer class="page-footer"><span class="copyright">Copyright © zl771.cn 2021 all right reserved，powered by Gitbook</span><span class="footer-modification">该文件修订时间：
+2025-08-13 22:50:57
+</span></footer></body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../case/keyboard-shortcuts.html" class="navigation navigation-prev " aria-label="Previous page: Keyboard Shortcuts">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="microprogram.html" class="navigation navigation-next " aria-label="Next page: Mini Program Ticket Sales">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Backend Operation Manual","level":"3.1","depth":1,"next":{"title":"Mini Program Ticket Sales","level":"3.2","depth":1,"path":"guide/microprogram.md","ref":"guide/microprogram.md","articles":[]},"previous":{"title":"Keyboard Shortcuts","level":"2.1","depth":1,"path":"case/keyboard-shortcuts.md","ref":"case/keyboard-shortcuts.md","articles":[]},"dir":"ltr"},"config":{"plugins":["hints","page-ref","code","livereload","folding-content","emphasize","-lunr","-search","-sharing","sharing-plus","tbfed-pagefooter","search-pro","ancre-navigation","language-picker"],"root":"./","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy zl771.cn 2021","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"emphasize":{},"language-picker":{"grid-columns":3},"livereload":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"hints":{"info":"fa fa-info-circle","tip":"fa fa-mortar-board","danger":"fa fa-exclamation-circle","working":"fa fa-wrench"},"code":{"copyButtons":true},"folding-content":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-ref":{},"ancre-navigation":{"showLevel":true,"associatedWithSummary":true,"mode":"float","printLog":false,"multipleH1":true,"float":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"sharing":{"qq":true,"all":["douban","facebook","google","hatenaBookmark","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","vk","weibo","pocket","stumbleupon","whatsapp"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":true,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":true,"linkedin":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"js":["site.js"],"theme":"default","author":"zl771.cn","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"智慧票务系统手册","language":"en-US","languages":[{"id":"en","title":"English","path":"./en"},{"id":"zh-hans","title":"简体中文","path":"./zh-cn/"}],"gitbook":"*"},"file":{"path":"guide/backend.md","mtime":"2025-08-13T14:50:57.247Z","type":"markdown"},"gitbook":{"version":"6.0.3","time":"2025-08-14T14:11:18.581Z"},"basePath":"..","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-language-picker/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

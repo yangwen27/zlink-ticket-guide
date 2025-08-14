@@ -1,0 +1,30 @@
+{
+  "name": "ticket-docs",
+  "version": "2.0.0",
+  "private": true,
+  "description": "智慧票务系统文档",
+  "keywords": [],
+  "license": "MIT",
+  "author": "wooyang",
+  "main": "index.js",
+  "scripts": {
+    "build": "honkit build",
+    "serve": "honkit serve"
+  },
+  "devDependencies": {
+    "gitbook-plugin-ancre-navigation": "^1.0.0",
+    "gitbook-plugin-code": "^0.1.0",
+    "gitbook-plugin-emphasize": "^1.1.0",
+    "gitbook-plugin-folding-content": "^1.0.0",
+    "gitbook-plugin-hints": "^1.0.2",
+    "gitbook-plugin-livereload": "^0.0.1",
+    "gitbook-plugin-page-ref": "^0.0.17",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-sharing-plus": "^0.0.2",
+    "gitbook-plugin-tbfed-pagefooter": "^0.0.1",
+    "honkit": "^6.0.3"
+  },
+  "dependencies": {
+    "gitbook-plugin-language-picker": "^0.1.0"
+  }
+}

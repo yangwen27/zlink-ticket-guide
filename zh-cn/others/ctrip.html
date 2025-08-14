@@ -1,0 +1,861 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-CN" >
+    <head>
+        <meta charset="UTF-8">
+        <title>携程OTA对接 · 智慧票务系统手册</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.0.3">
+        <meta name="author" content="zl771.cn">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-folding-content/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-ancre-navigation/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-language-picker/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="douyinlaige.html" />
+    
+    
+    <link rel="prev" href="售票机程序一直提示请扫码.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    智慧票务系统说明介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">操作说明书</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../guide/backend.html">
+            
+                <a href="../guide/backend.html">
+            
+                    
+                    后台操作说明书
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../guide/microprogram.html">
+            
+                <a href="../guide/microprogram.html">
+            
+                    
+                    小程序售票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../guide/ssm.html">
+            
+                <a href="../guide/ssm.html">
+            
+                    
+                    自助售票机
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../guide/pos-saler.html">
+            
+                <a href="../guide/pos-saler.html">
+            
+                    
+                    手持售票机
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../guide/ota-saler.html">
+            
+                <a href="../guide/ota-saler.html">
+            
+                    
+                    OTA售票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../guide/douyin-ota.html">
+            
+                <a href="../guide/douyin-ota.html">
+            
+                    
+                    抖音来客OTA设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../guide/window-saler.html">
+            
+                <a href="../guide/window-saler.html">
+            
+                    
+                    窗口售票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="../guide/pos-checker.html">
+            
+                <a href="../guide/pos-checker.html">
+            
+                    
+                    手持检票机
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="../guide/shop-pos.html">
+            
+                <a href="../guide/shop-pos.html">
+            
+                    
+                    商家pos收款
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="../guide/shop-saler.html">
+            
+                <a href="../guide/shop-saler.html">
+            
+                    
+                    商家零售收银
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" data-path="../guide/Booking.html">
+            
+                <a href="../guide/Booking.html">
+            
+                    
+                    预约系统操作手册
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12" data-path="../guide/eastriver.html">
+            
+                <a href="../guide/eastriver.html">
+            
+                    
+                    消费机对接
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.13" data-path="../guide/facecheck.html">
+            
+                <a href="../guide/facecheck.html">
+            
+                    
+                    人脸识别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.14" data-path="../guide/member-ic.html">
+            
+                <a href="../guide/member-ic.html">
+            
+                    
+                    会员IC卡
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.15" data-path="bookings.html">
+            
+                <a href="bookings.html">
+            
+                    
+                    最新版预约系统操作手册
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">门票销售参数设置案例</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../ticket-settings/cron-piao.html">
+            
+                <a href="../ticket-settings/cron-piao.html">
+            
+                    
+                    Cron设定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../ticket-settings/pu-tong-piao.html">
+            
+                <a href="../ticket-settings/pu-tong-piao.html">
+            
+                    
+                    普通票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../ticket-settings/jia-ting-piao.html">
+            
+                <a href="../ticket-settings/jia-ting-piao.html">
+            
+                    
+                    家庭亲子票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../ticket-settings/qing-lv-piao.html">
+            
+                <a href="../ticket-settings/qing-lv-piao.html">
+            
+                    
+                    情侣年票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../ticket-settings/ji-ci-piao.html">
+            
+                <a href="../ticket-settings/ji-ci-piao.html">
+            
+                    
+                    计次票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../ticket-settings/freeticket.html">
+            
+                <a href="../ticket-settings/freeticket.html">
+            
+                    
+                    身份证免费票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../ticket-settings/hideticket.html">
+            
+                <a href="../ticket-settings/hideticket.html">
+            
+                    
+                    隐藏门票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="../ticket-settings/members.html">
+            
+                <a href="../ticket-settings/members.html">
+            
+                    
+                    会员票
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="../ticket-settings/tasks.html">
+            
+                <a href="../ticket-settings/tasks.html">
+            
+                    
+                    定时任务
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">安装部署指南</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="prepare.html">
+            
+                <a href="prepare.html">
+            
+                    
+                    前期准备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../install/windows.html">
+            
+                <a href="../install/windows.html">
+            
+                    
+                    windows安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../install/linux.html">
+            
+                <a href="../install/linux.html">
+            
+                    
+                    linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">其他文档</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="printsetting.html">
+            
+                <a href="printsetting.html">
+            
+                    
+                    窗口售票机打印机设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="smssettings.html">
+            
+                <a href="smssettings.html">
+            
+                    
+                    购票通知短信设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="dataprivilege.html">
+            
+                <a href="dataprivilege.html">
+            
+                    
+                    数据权限设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="tianshitongcheng.html">
+            
+                <a href="tianshitongcheng.html">
+            
+                    
+                    天时同程对接
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="jialian.html">
+            
+                <a href="jialian.html">
+            
+                    
+                    嘉联接口升级
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="售票机程序一直提示请扫码.html">
+            
+                <a href="售票机程序一直提示请扫码.html">
+            
+                    
+                    售票机程序一直提示请扫码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="5.7" data-path="ctrip.html">
+            
+                <a href="ctrip.html">
+            
+                    
+                    携程OTA对接
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="douyinlaige.html">
+            
+                <a href="douyinlaige.html">
+            
+                    
+                    抖音来客对接
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="智慧景区不智慧.html">
+            
+                <a href="智慧景区不智慧.html">
+            
+                    
+                    智慧景区不智慧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.10" data-path="智慧景区为何不智慧.html">
+            
+                <a href="智慧景区为何不智慧.html">
+            
+                    
+                    智慧景区为何不智慧
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">常见问题</li>
+        
+        
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            本書使用 HonKit 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >携程OTA对接</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#携程ota渠道对接配置指南"><b></b>携程OTA渠道对接配置指南</a></li><ul><li><span class="title-icon "></span><a href="#步骤一：接口权限配置"><b></b>步骤一：接口权限配置</a></li><ul><li><span class="title-icon "></span><a href="#新版测试平台配置"><b></b>新版测试平台配置</a></li></ul><li><span class="title-icon "></span><a href="#步骤二：获取并填写接口参数"><b></b>步骤二：获取并填写接口参数</a></li></ul></ul></div><a href="#携程ota渠道对接配置指南" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="携程ota渠道对接配置指南"><a name="携程ota渠道对接配置指南" class="anchor-navigation-ex-anchor" href="#携程ota渠道对接配置指南"><i class="fa fa-link" aria-hidden="true"></i></a>携程OTA渠道对接配置指南</h1>
+<p>本文档旨在引导技术人员完成众链票务系统与携程OTA平台之间的接口配置。</p>
+<h2 id="步骤一：接口权限配置"><a name="步骤一：接口权限配置" class="anchor-navigation-ex-anchor" href="#步骤一：接口权限配置"><i class="fa fa-link" aria-hidden="true"></i></a>步骤一：接口权限配置</h2>
+<ol>
+<li><p>登录<strong>携程分销后台</strong>，在接口配置页面，选择<strong>直接下单</strong>模式。</p>
+</li>
+<li><p>请确保仅勾选以下五项接口权限：</p>
+<ul>
+<li>订单验证</li>
+<li>订单新订</li>
+<li>订单取消</li>
+<li>订单查询</li>
+<li>订单核销通知</li>
+</ul>
+<p>标准平台的配置如下图所示：
+<img src="imgs/1744711660059.png" alt="接口权限配置"></img></p>
+</li>
+</ol>
+<h3 id="新版测试平台配置"><a name="新版测试平台配置" class="anchor-navigation-ex-anchor" href="#新版测试平台配置"><i class="fa fa-link" aria-hidden="true"></i></a>新版测试平台配置</h3>
+<p>若您使用的是新版测试平台，请参照下图进行应用配置：</p>
+<p><img src="imgs/1744765472504.png" alt="新版测试平台应用配置"></img></p>
+<p></p><div class="alert alert-undefined hints-alert"><div class="hints-icon"><i class="undefined"></i></div><div class="hints-container"><p><strong>关于重置测试订单</strong></p>
+<p>在测试过程中，若因门票限购等原因导致某一订单无法一次性完成测试，您需要在携程测试平台点击<strong>重试</strong>。</p>
+<p><strong>重要提示：</strong> 在点击“重试”之前，<strong>必须</strong>先在票务系统的数据库中手动删除该订单的测试数据，否则将导致重试失败。</p>
+</div></div><p></p>
+<h2 id="步骤二：获取并填写接口参数"><a name="步骤二：获取并填写接口参数" class="anchor-navigation-ex-anchor" href="#步骤二：获取并填写接口参数"><i class="fa fa-link" aria-hidden="true"></i></a>步骤二：获取并填写接口参数</h2>
+<ol>
+<li><p>在携程后台，点击<strong>订单接口参数配置</strong>。系统会将相关参数发送至您的注册邮箱。
+<img src="imgs/1744680710189.png" alt="获取接口参数"></img></p>
+</li>
+<li><p>邮件中会包含<strong>测试环境</strong>与<strong>生产环境</strong>两套独立的参数。</p>
+</li>
+<li><p>请将获取到的参数准确填写至票务系统的相应配置项中。
+<img src="imgs/1744680777891.png" alt="填写参数至票务系统"></img></p>
+</li>
+</ol>
+<p></p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p><strong>环境一致性要求</strong></p>
+<p>请务必确保票务系统中所填写的环境（测试/生产）与后台相关任务（如订单同步任务）中所选择的环境保持一致，否则将导致接口调用失败。</p>
+</div></div> <p></p>
+<footer class="page-footer"><span class="copyright">Copyright © zl771.cn 2021 all right reserved，powered by Gitbook</span><span class="footer-modification">该文件修订时间：
+2025-08-12 20:44:44
+</span></footer></body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="售票机程序一直提示请扫码.html" class="navigation navigation-prev " aria-label="Previous page: 售票机程序一直提示请扫码">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="douyinlaige.html" class="navigation navigation-next " aria-label="Next page: 抖音来客对接">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"携程OTA对接","level":"5.7","depth":1,"next":{"title":"抖音来客对接","level":"5.8","depth":1,"path":"others/douyinlaige.md","ref":"others/douyinlaige.md","articles":[]},"previous":{"title":"售票机程序一直提示请扫码","level":"5.6","depth":1,"path":"others/售票机程序一直提示请扫码.md","ref":"others/售票机程序一直提示请扫码.md","articles":[]},"dir":"ltr"},"config":{"plugins":["hints","page-ref","code","livereload","folding-content","emphasize","-lunr","-search","-sharing","sharing-plus","tbfed-pagefooter","search-pro","ancre-navigation","language-picker"],"root":"./","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy zl771.cn 2021","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"emphasize":{},"language-picker":{"grid-columns":3},"livereload":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"hints":{"info":"fa fa-info-circle","tip":"fa fa-mortar-board","danger":"fa fa-exclamation-circle","working":"fa fa-wrench"},"code":{"copyButtons":true},"folding-content":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-ref":{},"ancre-navigation":{"showLevel":true,"associatedWithSummary":true,"mode":"float","printLog":false,"multipleH1":true,"float":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"sharing":{"qq":true,"all":["douban","facebook","google","hatenaBookmark","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","vk","weibo","pocket","stumbleupon","whatsapp"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":true,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":true,"linkedin":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"js":["site.js"],"theme":"default","author":"zl771.cn","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"智慧票务系统手册","language":"zh-CN","languages":[{"id":"en","title":"English","path":"./en"},{"id":"zh-hans","title":"简体中文","path":"./zh-cn/"}],"gitbook":"*"},"file":{"path":"others/ctrip.md","mtime":"2025-08-12T12:44:44.809Z","type":"markdown"},"gitbook":{"version":"6.0.3","time":"2025-08-14T14:11:18.581Z"},"basePath":"..","book":{"language":"zh-cn"}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-language-picker/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
